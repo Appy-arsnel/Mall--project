@@ -85135,7 +85135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1980976708
 Transform:
   m_ObjectHideFlags: 0
@@ -89986,6 +89986,8 @@ MonoBehaviour:
   _maxCameraview: 50
   _fppcamera: {fileID: 1980976710}
   _tppcamera: {fileID: 954720870}
+  _tppc: {fileID: 954720869}
+  _fppc: {fileID: 1980976707}
 --- !u!136 &2094253606
 CapsuleCollider:
   m_ObjectHideFlags: 0
