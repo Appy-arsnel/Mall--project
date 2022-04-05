@@ -14,6 +14,10 @@ public class movement : MonoBehaviour
         [SerializeField] private Camera _tppcamera;
         private Camera _camera =null;
         bool istpp;
+          [SerializeField] private GameObject _tppc;
+                    [SerializeField] private GameObject _fppc;
+
+
 
     private float xRotation = 0f;
          Vector3 moveVector;
@@ -25,7 +29,11 @@ public class movement : MonoBehaviour
     void Start()
     {
         _charController = GetComponent<CharacterController>();
+        _fppc.SetActive(true);
+                _tppc.SetActive(false);
+
        _camera = _fppcamera;
+
 
        istpp=false;
 
@@ -76,7 +84,21 @@ public class movement : MonoBehaviour
 
          
         //float horizontal = Input.GetAxis("Horizontal");
-       
+            if(Input.GetKeyDown(KeyCode.C)){
+            if(istpp==false){
+            _camera=_tppcamera;
+            _fppc.SetActive(false);
+                _tppc.SetActive(true);
+            istpp=true;
+        }
+        else if(istpp==true){
+            _camera=_fppcamera;
+            _fppc.SetActive(true);
+                _tppc.SetActive(false);
+            istpp=false;
+        }
+        
+        }
         
         }
           void FixedUpdate() {
@@ -94,16 +116,7 @@ public class movement : MonoBehaviour
             else{
                   animator.SetBool("isWalking",false);
             }
-             if(Input.GetKeyDown(KeyCode.C)&& istpp==false){
-            if(istpp==false){
-            _camera=_tppcamera;
-            istpp=true;
-        }else if(Input.GetKeyDown(KeyCode.C)&&istpp==true){
-            _camera=_fppcamera;
-            istpp=false;
-        }
         
-        }
     }
     
 }
