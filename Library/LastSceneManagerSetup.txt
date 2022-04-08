@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Toystoreselection.unity
+- path: Assets/BrokenVector/LowPolyCarPack/All Assets.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/MallScene/main.unity
-  isLoaded: 1
-  isActive: 0
   isSubScene: 0
