@@ -9,7 +9,7 @@ public class ToyStore_Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currenttoyindex=PlayerPrefs.GetInt("Selectedtoy",0);
+       currenttoyindex=PlayerPrefs.GetInt("Selectedtoy",0);
         foreach(GameObject toy in toymodels){
             toy.SetActive(false);
         }
@@ -21,5 +21,32 @@ public class ToyStore_Manager : MonoBehaviour
     void Update()
     {
         
+
+
     }
+
+    public void Changnext(){
+        toymodels[currenttoyindex].SetActive(false);
+        currenttoyindex++;
+        if(currenttoyindex==toymodels.Length)   
+        currenttoyindex=0;
+
+        toymodels[currenttoyindex].SetActive(true);
+
+        PlayerPrefs.SetInt("Selectedtoy",currenttoyindex);
+        
+        
+         }
+         public void ChangPrev(){
+        toymodels[currenttoyindex].SetActive(false);
+        currenttoyindex--;
+        if(currenttoyindex== -1)   
+        currenttoyindex=toymodels.Length-1;
+
+        toymodels[currenttoyindex].SetActive(true);
+
+        PlayerPrefs.SetInt("Selectedtoy",currenttoyindex);
+        
+        
+         }
 }
