@@ -23,11 +23,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33879
+35897
 Successfully changed project path to: /home/arsnel/Mall-Project/Mall -project
 /home/arsnel/Mall-Project/Mall -project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -43,100 +43,100 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -716551680
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -77979648
 Initialize mono
 Mono path[0] = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56061
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56253
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002053 seconds.
+Registered in 0.001861 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
+- Completed reload, in  0.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (739ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (673ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (592ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003132 seconds.
+Registered in 0.002198 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  1.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.00 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.8 MB.
 System memory in use after: 89.9 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2060.
-Total: 4.907646 ms (FindLiveObjects: 0.132727 ms CreateObjectMapping: 0.038299 ms MarkObjects: 4.615411 ms  DeleteObjects: 0.120030 ms)
+Total: 6.948929 ms (FindLiveObjects: 0.166566 ms CreateObjectMapping: 0.057268 ms MarkObjects: 6.529637 ms  DeleteObjects: 0.193995 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -149,409 +149,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/toybanner/toybanner.jpg
-  artifactKey: Guid(47500a052f5e4245cb22d7b0311b0a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/toybanner/toybanner.jpg using Guid(47500a052f5e4245cb22d7b0311b0a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5e5b6a130e641018e0b509b36ec0dd') in 0.081159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.617268 seconds.
-  path: Assets/CoffeeShopStarterPack/Manual.pdf
-  artifactKey: Guid(cbf9cb7fff14d45db91136934681ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Manual.pdf using Guid(cbf9cb7fff14d45db91136934681ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b95ca28950e5d90578f586ebbd73323') in 0.001150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 209.165175 seconds.
-  path: Assets/CoffeeShopStarterPack/Test
-  artifactKey: Guid(e6e296e84914242b991f930d2cad6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Test using Guid(e6e296e84914242b991f930d2cad6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cb8723df05b496d92f684780ba7d2f') in 0.000775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.516524 seconds.
-  path: Assets/CoffeeShopStarterPack/Scripts
-  artifactKey: Guid(0d24cecdd02d64c0287ffd23007da5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Scripts using Guid(0d24cecdd02d64c0287ffd23007da5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0b16bedec3fa8c7d8daade2f0d2780') in 0.000918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.279699 seconds.
-  path: Assets/CoffeeShopStarterPack/Scripts/Editor
-  artifactKey: Guid(60ce4f03674fc479a8aa6a48665b7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Scripts/Editor using Guid(60ce4f03674fc479a8aa6a48665b7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d56cff186f0ed2d554bc5da3f757dd1') in 0.001257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.239556 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs
-  artifactKey: Guid(4967014c58c284374acae143f4eea175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs using Guid(4967014c58c284374acae143f4eea175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3d3706f563d137dd5b2d51bad190e') in 0.000862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048429 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/OrderGenerator.prefab
-  artifactKey: Guid(4dee7bea4c4584015894b8d911e97c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/OrderGenerator.prefab using Guid(4dee7bea4c4584015894b8d911e97c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81b9eed3e93d855ee957f624e3ec2a') in 0.032828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_white.prefab
-  artifactKey: Guid(77b051a1cce5b4a36a8cca319997554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_white.prefab using Guid(77b051a1cce5b4a36a8cca319997554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0f3653ff3f965a0c6a6f05eb2637a7') in 0.041737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display03.prefab
-  artifactKey: Guid(2c597a3dd113e42e5b84bb1441c18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display03.prefab using Guid(2c597a3dd113e42e5b84bb1441c18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acded620c002ee3a4af86f5e6caca9f') in 0.369438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cup02.prefab
-  artifactKey: Guid(712bb278659f44938ada3e91dbb4c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cup02.prefab using Guid(712bb278659f44938ada3e91dbb4c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7dc53c1db1156f0baf7762dd0be3cc') in 0.010095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_microwave.prefab
-  artifactKey: Guid(67b6bd8afc16f482b8cdff490a857fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_microwave.prefab using Guid(67b6bd8afc16f482b8cdff490a857fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbfe673fbcff7b1b913214a3558a14d') in 0.010935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup02.prefab
-  artifactKey: Guid(806ac5fcbcc474da28cf79b0a4df73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup02.prefab using Guid(806ac5fcbcc474da28cf79b0a4df73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f44d8ed070f82f679c4260472891a79') in 0.010377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_espressomachine.prefab
-  artifactKey: Guid(a0634ab2a98bd4b78af017c116badda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_espressomachine.prefab using Guid(a0634ab2a98bd4b78af017c116badda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b9b77e2fbdd97cd4c8ba3d70d07999') in 0.012588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_orange.prefab
-  artifactKey: Guid(cc5131061b683423991b909eeabb9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_orange.prefab using Guid(cc5131061b683423991b909eeabb9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3344ab09f034a823b974c50b5008bc') in 0.008997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_strawberry.prefab
-  artifactKey: Guid(9acf341c571a948e389aa24e4b77dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_strawberry.prefab using Guid(9acf341c571a948e389aa24e4b77dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af39b3a432187d43cd89781c5f157a18') in 0.012895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_chocolatte.prefab
-  artifactKey: Guid(bb5b37d8246d44e598c671792c3ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_chocolatte.prefab using Guid(bb5b37d8246d44e598c671792c3ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ff1c7250050338e9911099921d57b2') in 0.009896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cookie.prefab
-  artifactKey: Guid(17ac7eebcd6e04cc1909e60b6bc2fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cookie.prefab using Guid(17ac7eebcd6e04cc1909e60b6bc2fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23514825c7f84e3ea860c2f1e12aa5c') in 0.011122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_egg.prefab
-  artifactKey: Guid(d69ebb5455c17482da6677eadea7a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_egg.prefab using Guid(d69ebb5455c17482da6677eadea7a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3409c8139b736ffd4d0bebbc8518f55') in 0.014136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_S.prefab
-  artifactKey: Guid(cc432fe3a7a9e4db985762c1cf45d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_S.prefab using Guid(cc432fe3a7a9e4db985762c1cf45d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e6dd0d6c31ccda1ece49bd741ced4') in 0.013592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display01.prefab
-  artifactKey: Guid(fbbf1aaff00e94748a4a8f9d6a37714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display01.prefab using Guid(fbbf1aaff00e94748a4a8f9d6a37714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacb51cf283c643f83f31e86c2460f04') in 0.014522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_chocolattechips.prefab
-  artifactKey: Guid(5e6527792754e41d48aec14c1dafd8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_chocolattechips.prefab using Guid(5e6527792754e41d48aec14c1dafd8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a435a21e419643686d361acf7261e5') in 0.011110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_M.prefab
-  artifactKey: Guid(57d0183927158465caf394ee21052bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_M.prefab using Guid(57d0183927158465caf394ee21052bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6858d042aec10ee9cf41883f4d7993ca') in 0.013037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_olives.prefab
-  artifactKey: Guid(340d47ae895ab4f1cb1c63107c57ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_olives.prefab using Guid(340d47ae895ab4f1cb1c63107c57ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a197905e4083573b0c45209eb2474d') in 0.010829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_espresso_cup.prefab
-  artifactKey: Guid(2dd019f1380a8464da36c528baec5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_espresso_cup.prefab using Guid(2dd019f1380a8464da36c528baec5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6939ca8ba718e7179d552b5978e137') in 0.011156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_M.prefab
-  artifactKey: Guid(a880b7f20a3694308be2bff57c22dd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_M.prefab using Guid(a880b7f20a3694308be2bff57c22dd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44db228a71e513e7ce4a1fe0a14ee8f') in 0.011676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab
-  artifactKey: Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab using Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cf10cd74244c9b8c30ff51fa1cc5b6') in 0.011892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_pan.prefab
-  artifactKey: Guid(f3e44870c7d004aa3a92cdfabc5207bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_pan.prefab using Guid(f3e44870c7d004aa3a92cdfabc5207bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cec706902716d59f0374df72831149') in 0.013445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display02.prefab
-  artifactKey: Guid(a053e34ccc3a9480ca81efece4e7cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display02.prefab using Guid(a053e34ccc3a9480ca81efece4e7cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c59fe6c5d15383477cea1fb4dc4b200') in 0.010955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_lime.prefab
-  artifactKey: Guid(7989684eaf7d44a699019d7be7625a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_lime.prefab using Guid(7989684eaf7d44a699019d7be7625a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84491819a3154d17065d1928e8d8eb7e') in 0.011638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_mochapot.prefab
-  artifactKey: Guid(bbfd91b99086b4acb9d41d225cf41bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_mochapot.prefab using Guid(bbfd91b99086b4acb9d41d225cf41bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bad84e24ba542db7d62b656cdcf7612') in 0.009112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab
-  artifactKey: Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab using Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7579116db53a0fe80e72cd81c651cdb') in 0.009155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_pot.prefab
-  artifactKey: Guid(da135e105813e4b9d8fe98a58bfbcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_pot.prefab using Guid(da135e105813e4b9d8fe98a58bfbcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0aa130021321d1967f4c2b8ffa719') in 0.010485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_croissant.prefab
-  artifactKey: Guid(9007700338d194bd18e3086f4600a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_croissant.prefab using Guid(9007700338d194bd18e3086f4600a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c6e26a45df61ef8dc0e4b19889679e') in 0.008999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_macaron_tower.prefab
-  artifactKey: Guid(7afe7aeeef6f6423085b55ce10305c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_macaron_tower.prefab using Guid(7afe7aeeef6f6423085b55ce10305c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3c4bf68e5f2e4e13168670343d572a') in 0.011447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cup01.prefab
-  artifactKey: Guid(8d57f19c265de49429f0074af4e75232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cup01.prefab using Guid(8d57f19c265de49429f0074af4e75232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b905aa5d94d8c68d4c68511b7ac71') in 0.010542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_plate02.prefab
-  artifactKey: Guid(a8596fda882d0439389c54b698c0da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_plate02.prefab using Guid(a8596fda882d0439389c54b698c0da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aaaff1db9209477f42989bf53a32bf') in 0.011337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab
-  artifactKey: Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab using Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60539b534f37be49c58daa0f0f29a34a') in 0.014217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_cherry.prefab
-  artifactKey: Guid(75221d19731aa453d81714a24451c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_cherry.prefab using Guid(75221d19731aa453d81714a24451c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f2a1ad931fd8acd24cd357f8018a4a') in 0.010690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_oreo.prefab
-  artifactKey: Guid(7c313b72ae95e4454901041fa86d8984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_oreo.prefab using Guid(7c313b72ae95e4454901041fa86d8984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0d3d0c37fcaef22c77906508f107a') in 0.011914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_corner.prefab
-  artifactKey: Guid(2c04cf954647e43589c56b0df4058564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_corner.prefab using Guid(2c04cf954647e43589c56b0df4058564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358bff1d58409fe1b01d47a5fd1a31f5') in 0.009941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cup03.prefab
-  artifactKey: Guid(f1014df0302d8494dace54e1a35a1d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cup03.prefab using Guid(f1014df0302d8494dace54e1a35a1d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b76016e35ca5207bfe68102a5c6ec01') in 0.009036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_strawberry.prefab
-  artifactKey: Guid(31cd80546c3d1474f9335e444db120ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_strawberry.prefab using Guid(31cd80546c3d1474f9335e444db120ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a434bfc493f37616e84363b8828557') in 0.014151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube02.prefab
-  artifactKey: Guid(446c50f18dcf54a6f8feb4113c421b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube02.prefab using Guid(446c50f18dcf54a6f8feb4113c421b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caf99ea343b2c18c2bc7cddd254baa4') in 0.011623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_croissant_toserve.prefab
-  artifactKey: Guid(b4ed931ca91f741b6a600b8a20639eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_croissant_toserve.prefab using Guid(b4ed931ca91f741b6a600b8a20639eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4196ad92d4a4f634bf50fb2b2e11a9') in 0.012253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_blackNwhite.prefab
-  artifactKey: Guid(80b8d62454dc44cf2984af37c98f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_blackNwhite.prefab using Guid(80b8d62454dc44cf2984af37c98f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a15afe297a4273fd6d4cd255d7c77c') in 0.012479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_pink.prefab
-  artifactKey: Guid(0683ba921c1a542ea8dae92b271c1e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_pink.prefab using Guid(0683ba921c1a542ea8dae92b271c1e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1778cabbccdcac965a6f3a7c53fb7452') in 0.012071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_narrow.prefab
-  artifactKey: Guid(b8c3087888fc448acb63e643fea215d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_narrow.prefab using Guid(b8c3087888fc448acb63e643fea215d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c16a94544a89ee927ae4537e0a1e9a8') in 0.013221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_S.prefab
-  artifactKey: Guid(1e390fa4bfb8648509b8ecf4e7237451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_S.prefab using Guid(1e390fa4bfb8648509b8ecf4e7237451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd768c0675c140b200fde8b7eb9791a66') in 0.013021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_plate01.prefab
-  artifactKey: Guid(36aa94bb9e7364945ad8a487c4c3ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_plate01.prefab using Guid(36aa94bb9e7364945ad8a487c4c3ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c0c1593bd984ae8ecdcfb8199064c7') in 0.011657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_toast_cheese.prefab
-  artifactKey: Guid(8ba0ff2adae60496aac6d2b5df996d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_toast_cheese.prefab using Guid(8ba0ff2adae60496aac6d2b5df996d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8d81910e1f54b537f418cc26d37f2e') in 0.016504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_macaronbox.prefab
-  artifactKey: Guid(04e98152be2a54c62993ce0e60e111fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_macaronbox.prefab using Guid(04e98152be2a54c62993ce0e60e111fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6facb6ebfde58b65cb4b9cff478742f9') in 0.011731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard01.prefab
-  artifactKey: Guid(31264236aa69f49fba6ca492242bd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard01.prefab using Guid(31264236aa69f49fba6ca492242bd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e3d90118026153d7ebe46a51b19079') in 0.012064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoas_cherry_tomato.prefab
-  artifactKey: Guid(3d66c34ece81a4e88b0918ae6e9e4b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoas_cherry_tomato.prefab using Guid(3d66c34ece81a4e88b0918ae6e9e4b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b64d1f922b2e940517be1dab858823') in 0.013176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_orangejuice.prefab
-  artifactKey: Guid(8b6c44dc7c0ee401e8326e32b669a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_orangejuice.prefab using Guid(8b6c44dc7c0ee401e8326e32b669a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8325cc0ba2e6a6052e0ea604b700339e') in 0.010544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup01.prefab
-  artifactKey: Guid(cb5347f407bce459e92511942fdca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup01.prefab using Guid(cb5347f407bce459e92511942fdca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c40b808904128fcfcf9bcf850a2ce') in 0.011150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_redvelvet.prefab
-  artifactKey: Guid(450f6d2399809488dab3e957dfe78299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_redvelvet.prefab using Guid(450f6d2399809488dab3e957dfe78299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aa6d648e50587671568375a08e2e19') in 0.008379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard02.prefab
-  artifactKey: Guid(af9cdd9ba10234507875bb32ff50333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard02.prefab using Guid(af9cdd9ba10234507875bb32ff50333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c76d72c544fa23d4e8b78c5d55b2d1') in 0.012699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_blueberry.prefab
-  artifactKey: Guid(3543dbd2cbef54b4395a83d1e32f7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_blueberry.prefab using Guid(3543dbd2cbef54b4395a83d1e32f7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75402d4344aebbe98e28ef08d8dd81d') in 0.011164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_lemonade.prefab
-  artifactKey: Guid(7b9e9044605a04568a0c9d41cebd7913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_lemonade.prefab using Guid(7b9e9044605a04568a0c9d41cebd7913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a61c5f027a5dcbd8797902eaad9905') in 0.012421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_stove.prefab
-  artifactKey: Guid(2bb858b872f0f4fb89e1d1263c276480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_stove.prefab using Guid(2bb858b872f0f4fb89e1d1263c276480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c1cdbffe029c23c08094f31e1f47c9') in 0.014267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/CoffeeShopStarterPack/Prefabs/PW_paper.prefab
-  artifactKey: Guid(2e244810fcf8442c2ae5cd7b1f494341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_paper.prefab using Guid(2e244810fcf8442c2ae5cd7b1f494341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abf07011e074f5979a7dcdc7e331b0c') in 0.007988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.646983 seconds.
-  path: Assets/CoffeeShopStarterPack/Scenes
-  artifactKey: Guid(b30e2cf3c01784edeb0a083089712b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Scenes using Guid(b30e2cf3c01784edeb0a083089712b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cac83ed2cc152bd133329131577ddf') in 0.000828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.887251 seconds.
-  path: Assets/CoffeeShopStarterPack/Scenes/GameplayScene.unity
-  artifactKey: Guid(54b91dada95464896b59abb87c70cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CoffeeShopStarterPack/Scenes/GameplayScene.unity using Guid(54b91dada95464896b59abb87c70cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b3931b346b15a63cc80391c0022c28') in 0.001588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 102.366092 seconds.
   path: Assets/Scenes/MallScene/main.unity
   artifactKey: Guid(fa7d98eaf9c75e1a5b8a77189637903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MallScene/main.unity using Guid(fa7d98eaf9c75e1a5b8a77189637903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26eea9a1ebe69f1537ba936d46e9f637') in 0.001631 seconds 
+Start importing Assets/Scenes/MallScene/main.unity using Guid(fa7d98eaf9c75e1a5b8a77189637903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbdbbfcdde6f74735c1c6a757a22574') in 0.019185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 898.587506 seconds.
-  path: Assets/TextMesh Pro/Shaders
-  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486066d15e4e2d1f404625b357b63227') in 0.000779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.640018 seconds.
-  path: Assets/TextMesh Pro/Sprites
-  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825b4ecabc52a724fdd8944d5209777') in 0.001339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.386202 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62969724bd619cc8065da50553ed7df') in 0.010694 seconds 
+  Time since last request: 829.724686 seconds.
+  path: Assets/Scripts/Animator/npc_wavinganimation.controller
+  artifactKey: Guid(2e6ff74c2935d95ddb48be57acdccfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Animator/npc_wavinganimation.controller using Guid(2e6ff74c2935d95ddb48be57acdccfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19afde100b43afa8ecfdee2d51ae45e3') in 0.004799 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001954 seconds.
+Registered in 0.002105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 4.807372 ms (FindLiveObjects: 0.214032 ms CreateObjectMapping: 0.055403 ms MarkObjects: 4.502392 ms  DeleteObjects: 0.034181 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1152ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 5.151475 ms (FindLiveObjects: 0.252739 ms CreateObjectMapping: 0.067437 ms MarkObjects: 4.790584 ms  DeleteObjects: 0.038925 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001904 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -559,42 +283,42 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1080ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (887ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2072.
-Total: 5.788986 ms (FindLiveObjects: 0.195248 ms CreateObjectMapping: 0.072930 ms MarkObjects: 5.460517 ms  DeleteObjects: 0.058767 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 4.874930 ms (FindLiveObjects: 0.127502 ms CreateObjectMapping: 0.040866 ms MarkObjects: 4.658253 ms  DeleteObjects: 0.046859 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -608,50 +332,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001841 seconds.
+Registered in 0.002113 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
+- Completed reload, in  1.001 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1094ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (306ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2074.
-Total: 4.907441 ms (FindLiveObjects: 0.136295 ms CreateObjectMapping: 0.049390 ms MarkObjects: 4.682101 ms  DeleteObjects: 0.038363 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 4.736454 ms (FindLiveObjects: 0.145141 ms CreateObjectMapping: 0.038471 ms MarkObjects: 4.511669 ms  DeleteObjects: 0.039751 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
