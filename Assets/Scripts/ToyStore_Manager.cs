@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ using UnityEngine.SceneManagement;
 
 public class ToyStore_Manager : MonoBehaviour
 {
@@ -47,6 +48,11 @@ public class ToyStore_Manager : MonoBehaviour
 
         PlayerPrefs.SetInt("Selectedtoy",currenttoyindex);
         
+        
+         }
+         public void SceneSelect(){
+     
+          SceneManager.LoadScene("main");
         
          }
 }
