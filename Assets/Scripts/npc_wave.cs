@@ -5,7 +5,7 @@ using UnityEngine;
 public class npc_wave : MonoBehaviour
 {
     // Start is called before the first frame update
-     Animator anim;
+    Animator anim;
     bool iswaving;
     // Start is called before the first frame update
     void Start()
@@ -15,13 +15,13 @@ public class npc_wave : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-       if(Input.GetKeyDown(KeyCode.E)&&iswaving==false){
+       if(iswaving==false){
             anim.SetBool("iswaving",true);
             iswaving=true;
        }
-        if(Input.GetKeyDown(KeyCode.E)&&iswaving==true){
+        if(iswaving==true){
                             anim.SetBool("iswaving",false);
                             iswaving=false;
 
