@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MallScene/main.unity
     guid: fa7d98eaf9c75e1a5b8a77189637903b
+  - enabled: 1
+    path: Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity
+    guid: b5ea4a9f279d37740b3ef34f42035098
   m_configObjects: {}

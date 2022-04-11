@@ -22,6 +22,7 @@ public class ToyStore_Manager : MonoBehaviour
     void Update()
     {
         
+            Cursor.lockState = CursorLockMode.Confined;
 
 
     }
@@ -51,7 +52,7 @@ public class ToyStore_Manager : MonoBehaviour
         
          }
          public void SceneSelect(){
-     
+             Cursor.lockState = CursorLockMode.Locked;
           SceneManager.LoadScene("main");
         
          }

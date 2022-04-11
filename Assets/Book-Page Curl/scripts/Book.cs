@@ -138,6 +138,8 @@ public class Book : MonoBehaviour {
     }
     void Update()
     {
+                    Cursor.lockState = CursorLockMode.Confined;
+
         if (pageDragging && interactable)
         {
             UpdateBook();
