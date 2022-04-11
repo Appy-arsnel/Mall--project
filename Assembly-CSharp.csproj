@@ -109,6 +109,7 @@
      <Compile Include="Assets/CoffeeShopStarterPack/Scripts/Product.cs" />
      <Compile Include="Assets/CoffeeShopStarterPack/Scripts/HeatableProduct.cs" />
      <Compile Include="Assets/Scripts/NavigatioAI.cs" />
+     <Compile Include="Assets/Scripts/NocDest/NPCDest1.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
