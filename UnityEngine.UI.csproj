@@ -48,6 +48,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Image.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Mask.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\StandaloneInputModule.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Toggle.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Layout\LayoutElement.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\IGraphicEnabledDisabled.cs" />
@@ -82,7 +84,6 @@
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Misc.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRaycaster.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\InputField.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\StandaloneInputModule.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Scrollbar.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\FontUpdateTracker.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\ToggleGroup.cs" />
@@ -106,7 +107,6 @@
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRegistry.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\CanvasUpdateRegistry.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRebuildTracker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Mask.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Culling\Clipping.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\ScrollRect.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\Raycasters\PhysicsRaycaster.cs" />

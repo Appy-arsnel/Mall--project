@@ -105,8 +105,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Analytics\TimelineAnalytics.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\treeview\TimelineDragging.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\treeview\TimelineTreeView.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\Menus\TimelineContextMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\CustomTrackDrawerAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\Menus\TimelineContextMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Signals\SignalReceiverInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\CustomEditors\MarkerTrackEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\UnityEditorInternals.cs" />
