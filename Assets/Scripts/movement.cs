@@ -18,7 +18,8 @@ public class movement : MonoBehaviour
                     [SerializeField] private GameObject _fppc;
 
 
-
+    private int n;
+    private bool iswaving;
     private float xRotation = 0f;
          Vector3 moveVector;
          private bool iswalking;
@@ -99,6 +100,16 @@ public class movement : MonoBehaviour
         }
         
         }
+            
+        if(Input.GetKeyDown(KeyCode.Y)){
+                if(n%2==0){
+                            iswaving=true;
+                            n++;
+                }else{
+                                iswaving=false;
+                                n++;
+                }
+            }
         
         }
           void FixedUpdate() {
@@ -116,6 +127,15 @@ public class movement : MonoBehaviour
             else{
                   animator.SetBool("isWalking",false);
             }
+            if(iswaving){
+                animator.SetBool("iswaving",true);
+            }
+            else{
+                                animator.SetBool("iswaving",false);
+
+            }
+
+            
         
     }
     
