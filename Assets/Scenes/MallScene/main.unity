@@ -17706,6 +17706,7 @@ GameObject:
   - component: {fileID: 340760533}
   - component: {fileID: 340760532}
   - component: {fileID: 340760531}
+  - component: {fileID: 340760534}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -17789,6 +17790,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340760529}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &340760534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340760529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6d7c4f35eba299b9a546b2bba3af80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &341585280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97162,7 +97175,7 @@ MonoBehaviour:
   _speed: 2
   _mouseSensitivity: 1
   _minCameraview: -30
-  _maxCameraview: 180
+  _maxCameraview: 90
   _fppcamera: {fileID: 1980976710}
   _tppcamera: {fileID: 954720870}
   _tppc: {fileID: 954720869}
@@ -97176,7 +97189,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 919132148114360967}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.59080696
   m_Height: 3.8116326
   m_Direction: 1
