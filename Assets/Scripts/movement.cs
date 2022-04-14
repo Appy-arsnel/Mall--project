@@ -17,7 +17,7 @@ public class movement : MonoBehaviour
           [SerializeField] private GameObject _tppc;
                     [SerializeField] private GameObject _fppc;
 
-
+    public bool canmove;
     private int n;
     private bool iswaving;
     private float xRotation = 0f;
@@ -28,7 +28,7 @@ public class movement : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {       canmove=true;
         _charController = GetComponent<CharacterController>();
         _fppc.SetActive(true);
                 _tppc.SetActive(false);
@@ -51,12 +51,15 @@ public class movement : MonoBehaviour
     {
         //Get WASD Input for Player
        // _camera.SetActive(true);
-         vertical = Input.GetAxis("Vertical");
+       if(canmove){
+             vertical = Input.GetAxis("Vertical");
          horizontal = Input.GetAxis("Horizontal");
         //move player based on WASD Input
         Vector3 movement = transform.forward * vertical + transform.right * horizontal; //changed this line.
         _charController.Move(movement * Time.deltaTime * _speed);
 
+       }
+        
        
         //Get Mouse position Input
         float mouseX = Input.GetAxis("Mouse X") * _mouseSensitivity; //changed this line.
@@ -129,9 +132,11 @@ public class movement : MonoBehaviour
             }
             if(iswaving){
                 animator.SetBool("iswaving",true);
+                canmove=false;
             }
             else{
                                 animator.SetBool("iswaving",false);
+                                canmove=true;
 
             }
 
