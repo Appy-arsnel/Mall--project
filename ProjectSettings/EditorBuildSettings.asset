@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity
     guid: b5ea4a9f279d37740b3ef34f42035098
+  - enabled: 1
+    path: Assets/Scenes/Bookselection 1.unity
+    guid: 746c877e712246d42899242c7d6b9fcb
   m_configObjects: {}
