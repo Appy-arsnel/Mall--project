@@ -37,7 +37,7 @@ public class bookstoreselect : MonoBehaviour
        
        isinmissionarea=true;
 
-          SceneManager.LoadScene("Example_2_Controled Flipping");
+          SceneManager.LoadScene("Bookselection 1");
 
     }
 }
