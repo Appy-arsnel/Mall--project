@@ -45,6 +45,16 @@ public class movement : MonoBehaviour
         animator= GetComponent<Animator>();
         iswalking=false;
     }
+    IEnumerator waiter()
+{       canmove=false;
+     animator.SetBool("iswaving",true);
+    yield return new WaitForSeconds(2);
+   animator.SetBool("iswaving",false);
+       yield return new WaitForSeconds(1);
+
+           canmove=true;
+
+}
 
     // Update is called once per frame
     void Update()
@@ -105,14 +115,19 @@ public class movement : MonoBehaviour
         }
             
         if(Input.GetKeyDown(KeyCode.Y)){
-                if(n%2==0){
-                            iswaving=true;
-                            n++;
-                }else{
-                                iswaving=false;
-                                n++;
-                }
-            }
+                           
+                        StartCoroutine(waiter());
+        }
+                
+            //      if(n%2==0){
+            //                 iswaving=true;
+            //                 n++;
+            //     }
+            //     else{
+            //                     iswaving=false;
+            //                     n++;
+            //     }
+             
         
         }
           void FixedUpdate() {
@@ -130,15 +145,15 @@ public class movement : MonoBehaviour
             else{
                   animator.SetBool("isWalking",false);
             }
-            if(iswaving){
-                animator.SetBool("iswaving",true);
-                canmove=false;
-            }
-            else{
-                                animator.SetBool("iswaving",false);
-                                canmove=true;
+            // if(iswaving){
+            //     animator.SetBool("iswaving",true);
+            //     canmove=false;
+            // }
+            // else{
+            //                     animator.SetBool("iswaving",false);
+            //                     canmove=true;
 
-            }
+            // }
 
             
         
