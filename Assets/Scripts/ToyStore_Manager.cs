@@ -56,4 +56,9 @@ public class ToyStore_Manager : MonoBehaviour
           SceneManager.LoadScene("Example_2_Controled Flipping");
         
          }
+           public void ToySceneSelect(){
+             Cursor.lockState = CursorLockMode.Locked;
+          SceneManager.LoadScene("main");
+        
+         }
 }

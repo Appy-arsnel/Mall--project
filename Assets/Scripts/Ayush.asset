@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogue:
   - HI!! Appy.
   - How are you doing?
-  - Hi!!
+  - Look Toy Store! You can buy new toys.
+  - Look Book Store! Lets read some books.
   playerDialogue:
   - Hello Ayush. Long Time no see.
   - Do  I know you?
