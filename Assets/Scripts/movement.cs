@@ -35,7 +35,7 @@ public class movement : MonoBehaviour
 
        _camera = _fppcamera;
 
-
+ Cursor.lockState = CursorLockMode.Locked;
        istpp=false;
 
         if(_charController == null)
