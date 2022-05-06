@@ -1,144 +1,127 @@
-Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-System name:             Linux
-Distro version:          #1 SMP Debian 5.14.16-1kali1 (2021-11-05)
-Kernel version:          5.14.0-kali4-amd64
-Architecture:            x86_64
-Available memory:        11854 MB
 Using pre-set license
-Pro License: NO
-Desktop is 1920 x 1080 @ 60 Hz
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12166 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/home/arsnel/Mall-Project/Mall -project
+C:/Users/appyj/Documents/GitHub/Mall--project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-35169
-Successfully changed project path to: /home/arsnel/Mall-Project/Mall -project
-/home/arsnel/Mall-Project/Mall -project
+53974
+Successfully changed project path to: C:/Users/appyj/Documents/GitHub/Mall--project
+C:/Users/appyj/Documents/GitHub/Mall--project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/arsnel/Mall-Project/Mall -project/Assets
-GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
-Renderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
-Vendor:   Intel
-Version:  4.6 (Core Profile) Mesa 21.2.6
-GLES:     0
- GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
-_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
-int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
-L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
-t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
-exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1233630192
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/appyj/Documents/GitHub/Mall--project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6231
 Initialize mono
-Mono path[0] = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56119
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: /home/arsnel/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001846 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002264 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
+- Completed reload, in  0.655 seconds
 Domain Reload Profiling:
-	ReloadAssembly (691ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (655ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (554ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (183ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001964 seconds.
+Registered in 0.003507 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\appyj\Documents\GitHub\Mall--project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
+- Completed reload, in  1.289 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1139ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (922ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
+			SetupTypeCache (365ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (111ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.55 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1599 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.0 MB.
-System memory in use after: 90.1 MB.
+Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2067.
-Total: 4.927136 ms (FindLiveObjects: 0.132673 ms CreateObjectMapping: 0.055682 ms MarkObjects: 4.634776 ms  DeleteObjects: 0.102825 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 2.975400 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.736700 ms  DeleteObjects: 0.027900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -149,1210 +132,154 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Bookselection 1.unity
-  artifactKey: Guid(746c877e712246d42899242c7d6b9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bookselection 1.unity using Guid(746c877e712246d42899242c7d6b9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815f4d4469e4952347dd272db562e79a') in 0.013389 seconds 
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(83dfbbf2417d5761d8dd3dd9fd14356e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(83dfbbf2417d5761d8dd3dd9fd14356e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6c80e38bf8b6fc6516d7a78d382414') in 0.120986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.939030 seconds.
-  path: Assets/Scenes/mainSettings.lighting
-  artifactKey: Guid(d7ed8cd48e0d57b12a46b08b6472e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainSettings.lighting using Guid(d7ed8cd48e0d57b12a46b08b6472e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b7cf77f34f9946f5da295a8531c5e') in 0.003048 seconds 
+  Time since last request: 0.000520 seconds.
+  path: Assets/TerrainData_e27701ec-37d5-4c2a-8146-5cf694979606.asset
+  artifactKey: Guid(1f35c1d3ad47ec20d9ddd471fb21f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_e27701ec-37d5-4c2a-8146-5cf694979606.asset using Guid(1f35c1d3ad47ec20d9ddd471fb21f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ea9454b76d3b2c59162ba83c36dcd') in 0.010278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/TerrainData_749a8c70-968a-4da1-9983-0caed81a84c0.asset
+  artifactKey: Guid(f68baa70b39b6b774b3cef804870397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_749a8c70-968a-4da1-9983-0caed81a84c0.asset using Guid(f68baa70b39b6b774b3cef804870397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0776e71ac0dd688a07def47838f682b1') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TerrainData_8639a16c-2803-48af-a34b-aa0c7ddfe281.asset
+  artifactKey: Guid(976596777f6d45455b044a2ef88ae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8639a16c-2803-48af-a34b-aa0c7ddfe281.asset using Guid(976596777f6d45455b044a2ef88ae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80f9654e2239db692e9156cf54a55bb') in 0.050589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/TerrainData_f5e8f4cf-45e1-4939-894e-f5372f030a3c.asset
+  artifactKey: Guid(60ac367e863ed2b5b80e4950790f06e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f5e8f4cf-45e1-4939-894e-f5372f030a3c.asset using Guid(60ac367e863ed2b5b80e4950790f06e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85961656314ba3fabd05173edaaa1801') in 0.121308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/TerrainData_a3489da2-bff3-474a-9696-2a108bbf39d1.asset
+  artifactKey: Guid(82e2847ba66b7fa3fbf6420e92ca1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a3489da2-bff3-474a-9696-2a108bbf39d1.asset using Guid(82e2847ba66b7fa3fbf6420e92ca1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f01056f792b595ac1389836ad4e6a9') in 0.130229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/TerrainData_30ba45a1-9bbf-486a-a8f8-9daecf765fa9.asset
+  artifactKey: Guid(52fd098a31a93bb1ba875127ca8bc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_30ba45a1-9bbf-486a-a8f8-9daecf765fa9.asset using Guid(52fd098a31a93bb1ba875127ca8bc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953d0c715abb7b976bca6fa377d45a7d') in 0.185867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/TerrainData_0d647039-abc7-4fdb-a1c2-5235d426d4a5.asset
+  artifactKey: Guid(da412d7a980443712a0fbeb3a2ade0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0d647039-abc7-4fdb-a1c2-5235d426d4a5.asset using Guid(da412d7a980443712a0fbeb3a2ade0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf5b27d6725c7b61c1423b0057e73b') in 1.122411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/TerrainData_ea5b2cf0-8a9b-4f90-9c18-7e25c029f3fb.asset
+  artifactKey: Guid(b1cdc8adbb4755825985d666a068c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ea5b2cf0-8a9b-4f90-9c18-7e25c029f3fb.asset using Guid(b1cdc8adbb4755825985d666a068c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5f64bd780911f649595a5cfbd5be39') in 1.801809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/TerrainData_6d314a39-32bb-444d-9160-d1605deeb400.asset
+  artifactKey: Guid(4468c16dce40a13a1884fee7ae8d9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6d314a39-32bb-444d-9160-d1605deeb400.asset using Guid(4468c16dce40a13a1884fee7ae8d9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3d465d5cb94cc8d7b88a238ffcf38c') in 0.332506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TerrainData_2ccb257c-8f5b-46f9-a066-b0afdf85d7c6.asset
+  artifactKey: Guid(34d3776de8a70cfb98ea618ba17363f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2ccb257c-8f5b-46f9-a066-b0afdf85d7c6.asset using Guid(34d3776de8a70cfb98ea618ba17363f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5856669f14e5bc9122e95958262ba0c0') in 0.194337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/TerrainData_af4b19e6-0ff2-49e8-9b83-d53797eadcf4.asset
+  artifactKey: Guid(50e6626894cdf46edb73627d2e58a5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_af4b19e6-0ff2-49e8-9b83-d53797eadcf4.asset using Guid(50e6626894cdf46edb73627d2e58a5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437029423f3955e09efa3d4cbd839639') in 0.013120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/TerrainData_d98387c7-92f2-454d-83cb-efc15ae8795b.asset
+  artifactKey: Guid(a1c214be8b094fc36a20ecf12de27dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d98387c7-92f2-454d-83cb-efc15ae8795b.asset using Guid(a1c214be8b094fc36a20ecf12de27dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a30065aa78f2a88ce40b3985e96e5f') in 0.011432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/TerrainData_f2a70d0d-0cd5-4a54-8fc5-656c7d985567.asset
+  artifactKey: Guid(f8d9373af3086142584abf82f12ad0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f2a70d0d-0cd5-4a54-8fc5-656c7d985567.asset using Guid(f8d9373af3086142584abf82f12ad0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f8727c518eb34a47406b1a721e8a71') in 0.250445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/TerrainData_334494e8-83b7-4c09-9f0f-4e3653cb0215.asset
+  artifactKey: Guid(2961189aa92003fc282d3fe17209a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_334494e8-83b7-4c09-9f0f-4e3653cb0215.asset using Guid(2961189aa92003fc282d3fe17209a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ddf63517cd2d9faf60a78a32aa60e1') in 1.201121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/TerrainData_facf6f83-24ed-4f5f-8437-4b16231ed697.asset
+  artifactKey: Guid(8447138cb7a13a92e8be97c935ac0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_facf6f83-24ed-4f5f-8437-4b16231ed697.asset using Guid(8447138cb7a13a92e8be97c935ac0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be97afe0b18559c2687cd0b9d8f4765') in 0.115044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/TerrainData_b99f018c-e8a5-4c03-b33b-5598708a96cc.asset
+  artifactKey: Guid(646558c2e2ad63f3b890c07b3702a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b99f018c-e8a5-4c03-b33b-5598708a96cc.asset using Guid(646558c2e2ad63f3b890c07b3702a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab2b8335faabf912cc9b4b161e7a1bd') in 0.108870 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002313 seconds.
+Registered in 0.003415 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\appyj\Documents\GitHub\Mall--project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.032 seconds
+- Completed reload, in  0.831 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (844ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 4.503001 ms (FindLiveObjects: 0.133574 ms CreateObjectMapping: 0.037162 ms MarkObjects: 4.296527 ms  DeleteObjects: 0.034291 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001865 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (323ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 6.590365 ms (FindLiveObjects: 0.241765 ms CreateObjectMapping: 0.109044 ms MarkObjects: 6.138147 ms  DeleteObjects: 0.099917 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2073.
-Total: 4.782318 ms (FindLiveObjects: 0.163293 ms CreateObjectMapping: 0.041429 ms MarkObjects: 4.525511 ms  DeleteObjects: 0.051062 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002344 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 5.130663 ms (FindLiveObjects: 0.143454 ms CreateObjectMapping: 0.041071 ms MarkObjects: 4.904029 ms  DeleteObjects: 0.040763 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002241 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1009ms)
+	ReloadAssembly (831ms)
 		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (240ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (299ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (190ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2077.
-Total: 4.548308 ms (FindLiveObjects: 0.132826 ms CreateObjectMapping: 0.035826 ms MarkObjects: 4.343114 ms  DeleteObjects: 0.035376 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002190 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1043ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (311ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.6 MB.
+Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 5.066231 ms (FindLiveObjects: 0.154094 ms CreateObjectMapping: 0.036042 ms MarkObjects: 4.834839 ms  DeleteObjects: 0.039615 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 2.591000 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.271700 ms  DeleteObjects: 0.028300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 890.166283 seconds.
-  path: Assets/Books
-  artifactKey: Guid(78c486289c6cc8ec9b5762def7240bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books using Guid(78c486289c6cc8ec9b5762def7240bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2118e3a88a8373078bef75bdb1ac66f') in 0.003857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.983994 seconds.
-  path: Assets/Books/Pinocchio -images
-  artifactKey: Guid(a60f0e5b3c6ef0ee499a5cfe915b2805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images using Guid(a60f0e5b3c6ef0ee499a5cfe915b2805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3b6135fd159d2d6c4c1c9dad72f61f') in 0.002428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046263 seconds.
-  path: Assets/Books/Pinocchio -images/0001.jpg
-  artifactKey: Guid(3cc7352e4b7abf3769920b1b4086fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0001.jpg using Guid(3cc7352e4b7abf3769920b1b4086fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51276ac4a79feb0e8bca6ec6145ee15f') in 0.055580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Books/Pinocchio -images/0015.jpg
-  artifactKey: Guid(8ecbd4a46a2863aabb3078283ce777e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0015.jpg using Guid(8ecbd4a46a2863aabb3078283ce777e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6628ca77bc4b8df2b64b3b0e872bb4c') in 0.007281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Books/Pinocchio -images/0041.jpg
-  artifactKey: Guid(3f9dbac497f125cc2a2c1d1b7e670814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0041.jpg using Guid(3f9dbac497f125cc2a2c1d1b7e670814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e6841e4f0e607df6485b2974c8d383') in 0.006050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Books/Pinocchio -images/0033.jpg
-  artifactKey: Guid(868d025a596ad0867b8bb69af7f1d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0033.jpg using Guid(868d025a596ad0867b8bb69af7f1d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77608610174797b6a0e9fa5f49d3090c') in 0.007879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Books/Pinocchio -images/0008.jpg
-  artifactKey: Guid(4e53cea08132d4764b626e172f560c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0008.jpg using Guid(4e53cea08132d4764b626e172f560c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8e3fc8069705b172cf51d9f6e2efea') in 0.007964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Books/Pinocchio -images/0006.jpg
-  artifactKey: Guid(30175727cba70354dbc2883621bf09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0006.jpg using Guid(30175727cba70354dbc2883621bf09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893b9bf619ba515fd182ef4a04e3e245') in 0.006328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Books/Pinocchio -images/0002.jpg
-  artifactKey: Guid(837a31d89277b73298011b313b5c12c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0002.jpg using Guid(837a31d89277b73298011b313b5c12c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef34e92a61505710dc2acdacc9bd8e0') in 0.007999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Books/Pinocchio -images/0031.jpg
-  artifactKey: Guid(5119afae8913f141e84579e3f5c344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0031.jpg using Guid(5119afae8913f141e84579e3f5c344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8751734e7635712c07656c95d6e5eb') in 0.007767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Books/Pinocchio -images/0011.jpg
-  artifactKey: Guid(9a830581cbf94db1eb15744500dcc372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0011.jpg using Guid(9a830581cbf94db1eb15744500dcc372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ec898254e62f4c098bbf24c482c772') in 0.007290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Books/Pinocchio -images/0010.jpg
-  artifactKey: Guid(335539f0c33ce95f9a95515e8eedffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0010.jpg using Guid(335539f0c33ce95f9a95515e8eedffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86e8b291af6278b83d24b0a8a68ef96') in 0.007313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Books/Pinocchio -images/0018.jpg
-  artifactKey: Guid(8294876e7cf6bf2f698d7c5eb792626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0018.jpg using Guid(8294876e7cf6bf2f698d7c5eb792626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d438d14b1e3220ea5c37cb50b0c04e6') in 0.008876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Books/Pinocchio -images/0017.jpg
-  artifactKey: Guid(19ecf104d85cbbacc82eb38caef6da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0017.jpg using Guid(19ecf104d85cbbacc82eb38caef6da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc96a0c665d0dddd30bf41fb749b5540') in 0.006411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Books/Pinocchio -images/0003.jpg
-  artifactKey: Guid(86b8b1c0df77124f8a40f8f67b8519d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0003.jpg using Guid(86b8b1c0df77124f8a40f8f67b8519d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ce44ef0a4f5cae66119f56d7b40425') in 0.008293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Books/Pinocchio -images/0030.jpg
-  artifactKey: Guid(33d0f202476082eb0954e885fe454e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0030.jpg using Guid(33d0f202476082eb0954e885fe454e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a010ed2baaa8e761db5db0cdeb6f4c7') in 0.008212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Books/Pinocchio -images/0046.jpg
-  artifactKey: Guid(9934134ff93fa1183889e79b1916faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0046.jpg using Guid(9934134ff93fa1183889e79b1916faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c60ff08b915effd8e8263a2ac03bc58') in 0.007525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Books/Pinocchio -images/0042.jpg
-  artifactKey: Guid(56b56f355bf230f05aa3af033d54f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0042.jpg using Guid(56b56f355bf230f05aa3af033d54f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c754bc6087722ff36f99009219bdd44') in 0.007296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Books/Pinocchio -images/0032.jpg
-  artifactKey: Guid(bb2680093d2167d779c07c9f4b17ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0032.jpg using Guid(bb2680093d2167d779c07c9f4b17ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8031cce5f49344d27e51d1dda27132') in 0.010506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Books/Pinocchio -images/0012.jpg
-  artifactKey: Guid(e3c203ebb3d66a10094000f6d70959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0012.jpg using Guid(e3c203ebb3d66a10094000f6d70959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b068d56b320f444a8b07e0d21c7c49') in 0.006828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Books/Pinocchio -images/0028.jpg
-  artifactKey: Guid(e89dc4c72326a28309492281065d5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0028.jpg using Guid(e89dc4c72326a28309492281065d5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6042a8a2451c531e868a97c7e521efa') in 0.007366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Books/Pinocchio -images/0039.jpg
-  artifactKey: Guid(b71403d60dcc4e3e1ba81dd6d2f8f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0039.jpg using Guid(b71403d60dcc4e3e1ba81dd6d2f8f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca23aaf3c5fe1f3da37b6bf0fd1d6bd') in 0.008231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Books/Pinocchio -images/0022.jpg
-  artifactKey: Guid(8071a90dee8bff89bb10137094ab3e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0022.jpg using Guid(8071a90dee8bff89bb10137094ab3e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a7258945b3b6171f22e4b528f1a885') in 0.007321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Books/Pinocchio -images/0027.jpg
-  artifactKey: Guid(91a1b2d33ae8758feb927691f73f2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0027.jpg using Guid(91a1b2d33ae8758feb927691f73f2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49b8c97598cfec3c30e8ce9867e9a83') in 0.006270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Books/Pinocchio -images/0045.jpg
-  artifactKey: Guid(b9d086ee0707dde9897e46f14899b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0045.jpg using Guid(b9d086ee0707dde9897e46f14899b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a6ceaf8669a67b5da2ac7355b00552') in 0.008790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Books/Pinocchio -images/0007.jpg
-  artifactKey: Guid(a2674b31a7b0795d1bc3c57f3a1095ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0007.jpg using Guid(a2674b31a7b0795d1bc3c57f3a1095ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f209cdc997e36a0334c4a3468b3c93') in 0.007522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Books/Pinocchio -images/0020.jpg
-  artifactKey: Guid(b57accd8d249c48aab3c885bb95719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0020.jpg using Guid(b57accd8d249c48aab3c885bb95719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f182271c56f1a016b060d479c97b1f6f') in 0.006670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Books/Pinocchio -images/0044.jpg
-  artifactKey: Guid(622fe27e38db92d3f84c81747bf774e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0044.jpg using Guid(622fe27e38db92d3f84c81747bf774e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797d655d3f709f37c4cc5df11d3edd64') in 0.008887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Books/Pinocchio -images/0024.jpg
-  artifactKey: Guid(e2e56dd9f37b35d74808f5db26657b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0024.jpg using Guid(e2e56dd9f37b35d74808f5db26657b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c276c0bd030ea2fece79fd70df82a9a0') in 0.008083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Books/Pinocchio -images/0037.jpg
-  artifactKey: Guid(bbc29162b1224a301bbf4d45b89b9402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0037.jpg using Guid(bbc29162b1224a301bbf4d45b89b9402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b953598e9a3da48f862d334bc0d405ee') in 0.006451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Books/Pinocchio -images/0016.jpg
-  artifactKey: Guid(9193af9a23db7c7baace1ed037a05583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0016.jpg using Guid(9193af9a23db7c7baace1ed037a05583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdee33b39b33875d3585097b7b09e3b1') in 0.007677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Books/Pinocchio -images/0038.jpg
-  artifactKey: Guid(dc53adfc7d26c4decb102be10866a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0038.jpg using Guid(dc53adfc7d26c4decb102be10866a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9109a5ae6b09504d848fc8021b1e4bf5') in 0.006941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Books/Pinocchio -images/0040.jpg
-  artifactKey: Guid(c643bc229aefc87eba26fe60c33e8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0040.jpg using Guid(c643bc229aefc87eba26fe60c33e8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52925573c44f93b9ee87fc61fe9e1cba') in 0.006595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Books/Pinocchio -images/0026.jpg
-  artifactKey: Guid(9dbb0c3a53288a18eb9981521c4639b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0026.jpg using Guid(9dbb0c3a53288a18eb9981521c4639b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5326d18873209520d5209666d1c455a8') in 0.007906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Books/Pinocchio -images/0005.jpg
-  artifactKey: Guid(d2e893116874e4547a8f959e43ac0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0005.jpg using Guid(d2e893116874e4547a8f959e43ac0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af0f8369032b31d91db30716310a87f') in 0.007965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/Books/Pinocchio -images/0025.jpg
-  artifactKey: Guid(4375fbd63fff5bd81a71dacc09c41543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0025.jpg using Guid(4375fbd63fff5bd81a71dacc09c41543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce21a3e04710aa767f12cf6a27c6372') in 0.006382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Books/Pinocchio -images/0023.jpg
-  artifactKey: Guid(a83c1c4643f3c9105acd92e8bde0167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0023.jpg using Guid(a83c1c4643f3c9105acd92e8bde0167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f98f27ad08ba9fa995c26172e051b77') in 0.008224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Books/Pinocchio -images/0029.jpg
-  artifactKey: Guid(b9eef7c84d63f27e5bcb1abe4fa37535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0029.jpg using Guid(b9eef7c84d63f27e5bcb1abe4fa37535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c6812d2e6a196acc7c845907c938f0') in 0.006815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Books/Pinocchio -images/0013.jpg
-  artifactKey: Guid(d480bf19cf06603a882db4cc4c5af5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0013.jpg using Guid(d480bf19cf06603a882db4cc4c5af5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144bc5770d49e299ff24544450d728e6') in 0.007049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Books/Pinocchio -images/0021.jpg
-  artifactKey: Guid(dcfff83fd60feaf31b37acccedaf76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0021.jpg using Guid(dcfff83fd60feaf31b37acccedaf76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eae5e670f9096d37777e128adf6b28') in 0.007850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Books/Pinocchio -images/0043.jpg
-  artifactKey: Guid(49513439ecefb258c95d3e46e85aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0043.jpg using Guid(49513439ecefb258c95d3e46e85aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdcb7af9ae97baaccc2904466825f4') in 0.008134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Books/Pinocchio -images/0004.jpg
-  artifactKey: Guid(6acd10da468c062548c2dd548209e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0004.jpg using Guid(6acd10da468c062548c2dd548209e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ed730825c3270679626c6db74e1680') in 0.006578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Books/Pinocchio -images/0014.jpg
-  artifactKey: Guid(2256fa78ba4fe37169db57589795736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0014.jpg using Guid(2256fa78ba4fe37169db57589795736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948dc83c185d8fa0067d9a5a7c556c10') in 0.009219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Books/Pinocchio -images/0034.jpg
-  artifactKey: Guid(e017d4f0c77417a058cef2ef852ed1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0034.jpg using Guid(e017d4f0c77417a058cef2ef852ed1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552b1148111e8b82f70cb59736a1de2a') in 0.006959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Books/Pinocchio -images/0036.jpg
-  artifactKey: Guid(345596531fa1f4d50aef2d0c189a5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0036.jpg using Guid(345596531fa1f4d50aef2d0c189a5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2550a5e63616135a6fb49995fb841de') in 0.006918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Books/Pinocchio -images/0035.jpg
-  artifactKey: Guid(4112cbe5817c67ed79758bf5a91726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0035.jpg using Guid(4112cbe5817c67ed79758bf5a91726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c02d44311494e6f9310b697ae061be') in 0.008090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Books/Pinocchio -images/0009.jpg
-  artifactKey: Guid(b7338e86d9883b669b7d6262a79c9c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0009.jpg using Guid(b7338e86d9883b669b7d6262a79c9c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e3f4b64758abe2b5ec180cdbf35f65') in 0.006433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Books/Pinocchio -images/0019.jpg
-  artifactKey: Guid(e9b0332f847cf9bd583b34007cf29c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0019.jpg using Guid(e9b0332f847cf9bd583b34007cf29c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6281ebb4af34a1b392d8d507e34afa60') in 0.006478 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1059ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2083.
-Total: 4.704682 ms (FindLiveObjects: 0.125321 ms CreateObjectMapping: 0.043284 ms MarkObjects: 4.498337 ms  DeleteObjects: 0.036676 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 111.330154 seconds.
-  path: Assets/Books/Pinocchio -images/0001.jpg
-  artifactKey: Guid(3cc7352e4b7abf3769920b1b4086fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0001.jpg using Guid(3cc7352e4b7abf3769920b1b4086fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fb9b6008fb1275300de803ca298ffc') in 0.136958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.626132 seconds.
-  path: Assets/Books/Pinocchio -images/0037.jpg
-  artifactKey: Guid(bbc29162b1224a301bbf4d45b89b9402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0037.jpg using Guid(bbc29162b1224a301bbf4d45b89b9402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833a4139b886923e1351e22e5098350') in 0.048992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.098795 seconds.
-  path: Assets/Books/Pinocchio -images/0031.jpg
-  artifactKey: Guid(5119afae8913f141e84579e3f5c344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0031.jpg using Guid(5119afae8913f141e84579e3f5c344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399dbebec411b4e9ca1e832d234a6ad3') in 0.029022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Books/Pinocchio -images/0041.jpg
-  artifactKey: Guid(3f9dbac497f125cc2a2c1d1b7e670814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0041.jpg using Guid(3f9dbac497f125cc2a2c1d1b7e670814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f325d811d23a046b7860ba6ade05b') in 0.025965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Books/Pinocchio -images/0033.jpg
-  artifactKey: Guid(868d025a596ad0867b8bb69af7f1d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0033.jpg using Guid(868d025a596ad0867b8bb69af7f1d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c621ebf132bce3d6010a37a21a732162') in 0.029983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Books/Pinocchio -images/0046.jpg
-  artifactKey: Guid(9934134ff93fa1183889e79b1916faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0046.jpg using Guid(9934134ff93fa1183889e79b1916faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19932e80dbbac5ade56052cac527a07') in 0.025030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Books/Pinocchio -images/0042.jpg
-  artifactKey: Guid(56b56f355bf230f05aa3af033d54f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0042.jpg using Guid(56b56f355bf230f05aa3af033d54f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc1f63d5f691043d92aaa5ef745c7b') in 0.022499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Books/Pinocchio -images/0032.jpg
-  artifactKey: Guid(bb2680093d2167d779c07c9f4b17ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0032.jpg using Guid(bb2680093d2167d779c07c9f4b17ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ea3a2dbdadb0d60c4911055d76165b') in 0.023869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Books/Pinocchio -images/0039.jpg
-  artifactKey: Guid(b71403d60dcc4e3e1ba81dd6d2f8f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0039.jpg using Guid(b71403d60dcc4e3e1ba81dd6d2f8f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a456b3f23a630c5c967dbe1d34c2dda0') in 0.023315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Books/Pinocchio -images/0045.jpg
-  artifactKey: Guid(b9d086ee0707dde9897e46f14899b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0045.jpg using Guid(b9d086ee0707dde9897e46f14899b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525d713e56aa5b3764dac0eeaca0ebfe') in 0.022685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Books/Pinocchio -images/0044.jpg
-  artifactKey: Guid(622fe27e38db92d3f84c81747bf774e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0044.jpg using Guid(622fe27e38db92d3f84c81747bf774e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c49e2df85ca662557e9a2d936ccc99') in 0.020892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Books/Pinocchio -images/0038.jpg
-  artifactKey: Guid(dc53adfc7d26c4decb102be10866a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0038.jpg using Guid(dc53adfc7d26c4decb102be10866a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3401cb208a2ed1f7a3f0ea46d0332bd') in 0.022534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Books/Pinocchio -images/0040.jpg
-  artifactKey: Guid(c643bc229aefc87eba26fe60c33e8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0040.jpg using Guid(c643bc229aefc87eba26fe60c33e8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6db566b0eb87240919fc422117bd9f') in 0.022741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Books/Pinocchio -images/0043.jpg
-  artifactKey: Guid(49513439ecefb258c95d3e46e85aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0043.jpg using Guid(49513439ecefb258c95d3e46e85aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9904caad7373dacc5426964a7b58635') in 0.023448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Books/Pinocchio -images/0034.jpg
-  artifactKey: Guid(e017d4f0c77417a058cef2ef852ed1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0034.jpg using Guid(e017d4f0c77417a058cef2ef852ed1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d322df1723b08be8e2cf88f613871c7') in 0.024578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Books/Pinocchio -images/0036.jpg
-  artifactKey: Guid(345596531fa1f4d50aef2d0c189a5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0036.jpg using Guid(345596531fa1f4d50aef2d0c189a5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1a0eb4fccc8d36a78034299cf3cc65') in 0.022740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Books/Pinocchio -images/0035.jpg
-  artifactKey: Guid(4112cbe5817c67ed79758bf5a91726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0035.jpg using Guid(4112cbe5817c67ed79758bf5a91726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b15e8b1870afca4e3a552453698441') in 0.023110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.687728 seconds.
-  path: Assets/Books/Pinocchio -images/0016.jpg
-  artifactKey: Guid(9193af9a23db7c7baace1ed037a05583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0016.jpg using Guid(9193af9a23db7c7baace1ed037a05583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac49f7a013bf30ed454f3af2ade69a02') in 0.031900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Books/Pinocchio -images/0018.jpg
-  artifactKey: Guid(8294876e7cf6bf2f698d7c5eb792626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0018.jpg using Guid(8294876e7cf6bf2f698d7c5eb792626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dc8364fe1137df9dcc96b1c430be71') in 0.023393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Books/Pinocchio -images/0017.jpg
-  artifactKey: Guid(19ecf104d85cbbacc82eb38caef6da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0017.jpg using Guid(19ecf104d85cbbacc82eb38caef6da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50991dea6180639e383acd11ccc3b7a') in 0.021904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Books/Pinocchio -images/0030.jpg
-  artifactKey: Guid(33d0f202476082eb0954e885fe454e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0030.jpg using Guid(33d0f202476082eb0954e885fe454e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134c6d52726b51b6273736a85557596b') in 0.023711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Books/Pinocchio -images/0028.jpg
-  artifactKey: Guid(e89dc4c72326a28309492281065d5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0028.jpg using Guid(e89dc4c72326a28309492281065d5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900e96db01018d652c6865fda109a94') in 0.023250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Books/Pinocchio -images/0022.jpg
-  artifactKey: Guid(8071a90dee8bff89bb10137094ab3e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0022.jpg using Guid(8071a90dee8bff89bb10137094ab3e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e853923d55c92511529cf0a813bd3c') in 0.021965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Books/Pinocchio -images/0015.jpg
-  artifactKey: Guid(8ecbd4a46a2863aabb3078283ce777e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0015.jpg using Guid(8ecbd4a46a2863aabb3078283ce777e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db5d0d214be50bbe87329e01a6b2f5d') in 0.024027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Books/Pinocchio -images/0008.jpg
-  artifactKey: Guid(4e53cea08132d4764b626e172f560c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0008.jpg using Guid(4e53cea08132d4764b626e172f560c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c5486e715311dc305a85db04adddf5') in 0.023456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Books/Pinocchio -images/0006.jpg
-  artifactKey: Guid(30175727cba70354dbc2883621bf09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0006.jpg using Guid(30175727cba70354dbc2883621bf09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5424176d8b1ac4022762bcc426a2626a') in 0.023674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Books/Pinocchio -images/0002.jpg
-  artifactKey: Guid(837a31d89277b73298011b313b5c12c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0002.jpg using Guid(837a31d89277b73298011b313b5c12c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfee22d86cf9c6a9a3cd39603b27ba1f') in 0.022327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Books/Pinocchio -images/0011.jpg
-  artifactKey: Guid(9a830581cbf94db1eb15744500dcc372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0011.jpg using Guid(9a830581cbf94db1eb15744500dcc372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db93417499eb14b01dd43b9b66f4d77') in 0.023904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Books/Pinocchio -images/0010.jpg
-  artifactKey: Guid(335539f0c33ce95f9a95515e8eedffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0010.jpg using Guid(335539f0c33ce95f9a95515e8eedffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc401bdbe141ba2b13462213b727df95') in 0.023645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Books/Pinocchio -images/0003.jpg
-  artifactKey: Guid(86b8b1c0df77124f8a40f8f67b8519d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0003.jpg using Guid(86b8b1c0df77124f8a40f8f67b8519d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310bd126ec4c90c32a9fce34949dc54d') in 0.021859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Books/Pinocchio -images/0012.jpg
-  artifactKey: Guid(e3c203ebb3d66a10094000f6d70959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0012.jpg using Guid(e3c203ebb3d66a10094000f6d70959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e689002a560ea0e2f4d9dec22f537') in 0.023279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Books/Pinocchio -images/0027.jpg
-  artifactKey: Guid(91a1b2d33ae8758feb927691f73f2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0027.jpg using Guid(91a1b2d33ae8758feb927691f73f2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d27c3d5bd97bca6ca8a4c01e38db71d') in 0.025484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Books/Pinocchio -images/0007.jpg
-  artifactKey: Guid(a2674b31a7b0795d1bc3c57f3a1095ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0007.jpg using Guid(a2674b31a7b0795d1bc3c57f3a1095ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b4f401fabe3687f4cf3e4cd049dd43') in 0.024946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Books/Pinocchio -images/0020.jpg
-  artifactKey: Guid(b57accd8d249c48aab3c885bb95719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0020.jpg using Guid(b57accd8d249c48aab3c885bb95719b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9b8393bd2a930412bf5733ac37a7f') in 0.020560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Books/Pinocchio -images/0024.jpg
-  artifactKey: Guid(e2e56dd9f37b35d74808f5db26657b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0024.jpg using Guid(e2e56dd9f37b35d74808f5db26657b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bc27f2db9a19687ed3a79628f94f1') in 0.023008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Books/Pinocchio -images/0026.jpg
-  artifactKey: Guid(9dbb0c3a53288a18eb9981521c4639b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0026.jpg using Guid(9dbb0c3a53288a18eb9981521c4639b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fcae202ddf3f071b8140cb94efdd40') in 0.021015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Books/Pinocchio -images/0005.jpg
-  artifactKey: Guid(d2e893116874e4547a8f959e43ac0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0005.jpg using Guid(d2e893116874e4547a8f959e43ac0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ba3160b2578da24fa11587c1654338') in 0.024895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Books/Pinocchio -images/0025.jpg
-  artifactKey: Guid(4375fbd63fff5bd81a71dacc09c41543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0025.jpg using Guid(4375fbd63fff5bd81a71dacc09c41543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6448c3393fb1e58f7601b306b3f4679') in 0.024086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Books/Pinocchio -images/0023.jpg
-  artifactKey: Guid(a83c1c4643f3c9105acd92e8bde0167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0023.jpg using Guid(a83c1c4643f3c9105acd92e8bde0167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ceebd3e6e905fbb80f94bcf3752dbd') in 0.023489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Books/Pinocchio -images/0029.jpg
-  artifactKey: Guid(b9eef7c84d63f27e5bcb1abe4fa37535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0029.jpg using Guid(b9eef7c84d63f27e5bcb1abe4fa37535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e30306b87c3597a80b4ccbd55b3923') in 0.024728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Books/Pinocchio -images/0013.jpg
-  artifactKey: Guid(d480bf19cf06603a882db4cc4c5af5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0013.jpg using Guid(d480bf19cf06603a882db4cc4c5af5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b6ed3a8168ad869651d6b6469dcd10') in 0.024862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Books/Pinocchio -images/0021.jpg
-  artifactKey: Guid(dcfff83fd60feaf31b37acccedaf76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0021.jpg using Guid(dcfff83fd60feaf31b37acccedaf76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b9ef879e27f09df11fa261674c611') in 0.021704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Books/Pinocchio -images/0004.jpg
-  artifactKey: Guid(6acd10da468c062548c2dd548209e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0004.jpg using Guid(6acd10da468c062548c2dd548209e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c80ccb033f6250ae52bd8b6d695fd8') in 0.022655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Books/Pinocchio -images/0014.jpg
-  artifactKey: Guid(2256fa78ba4fe37169db57589795736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0014.jpg using Guid(2256fa78ba4fe37169db57589795736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f248827605c74bd564a1998862ae4b75') in 0.024271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Books/Pinocchio -images/0019.jpg
-  artifactKey: Guid(e9b0332f847cf9bd583b34007cf29c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0019.jpg using Guid(e9b0332f847cf9bd583b34007cf29c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec968b066e66895c59b68675631b74d') in 0.023037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Books/Pinocchio -images/0009.jpg
-  artifactKey: Guid(b7338e86d9883b669b7d6262a79c9c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Pinocchio -images/0009.jpg using Guid(b7338e86d9883b669b7d6262a79c9c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516bbf573c1b01e8b7a642edb24537b4') in 0.023737 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002246 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1115ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2090.
-Total: 5.973994 ms (FindLiveObjects: 0.183823 ms CreateObjectMapping: 0.078498 ms MarkObjects: 5.670544 ms  DeleteObjects: 0.039824 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 320.037353 seconds.
-  path: Assets/Scenes/Bookselection 1.unity
-  artifactKey: Guid(746c877e712246d42899242c7d6b9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bookselection 1.unity using Guid(746c877e712246d42899242c7d6b9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb39784c460ad33cde4096ed79f26bb') in 0.023547 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002591 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (296ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2092.
-Total: 4.680578 ms (FindLiveObjects: 0.135086 ms CreateObjectMapping: 0.041251 ms MarkObjects: 4.465882 ms  DeleteObjects: 0.037114 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 84.025805 seconds.
-  path: Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity
-  artifactKey: Guid(b5ea4a9f279d37740b3ef34f42035098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity using Guid(b5ea4a9f279d37740b3ef34f42035098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa618801063cf95ffbf73ad677295b24') in 0.033112 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001933 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1026ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (843ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2094.
-Total: 4.997071 ms (FindLiveObjects: 0.168529 ms CreateObjectMapping: 0.048149 ms MarkObjects: 4.738803 ms  DeleteObjects: 0.040169 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1073ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 5.012060 ms (FindLiveObjects: 0.162767 ms CreateObjectMapping: 0.044082 ms MarkObjects: 4.765693 ms  DeleteObjects: 0.037965 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
