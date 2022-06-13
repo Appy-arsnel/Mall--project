@@ -16,6 +16,7 @@ public class movement : MonoBehaviour
         bool istpp;
           [SerializeField] private GameObject _tppc;
                     [SerializeField] private GameObject _fppc;
+    public bool isWalking = false;
 
     public bool canmove;
     private int n;
@@ -118,18 +119,27 @@ public class movement : MonoBehaviour
                            
                         StartCoroutine(waiter());
         }
-                
-            //      if(n%2==0){
-            //                 iswaving=true;
-            //                 n++;
-            //     }
-            //     else{
-            //                     iswaving=false;
-            //                     n++;
-            //     }
-             
-        
+
+        //      if(n%2==0){
+        //                 iswaving=true;
+        //                 n++;
+        //     }
+        //     else{
+        //                     iswaving=false;
+        //                     n++;
+        //     }
+
+        if (horizontal != 0.000f || vertical != 0.000f)
+        {
+            isWalking = true;
         }
+        else
+        {
+            isWalking = false;
+        }
+
+
+    }
           void FixedUpdate() {
              // _camera.SetActive(true);
                if(vertical>0||vertical<0||horizontal>0||horizontal<0){

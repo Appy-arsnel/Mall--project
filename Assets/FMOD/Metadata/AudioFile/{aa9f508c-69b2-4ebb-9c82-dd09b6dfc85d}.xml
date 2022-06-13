@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aa9f508c-69b2-4ebb-9c82-dd09b6dfc85d}">
+		<property name="assetPath">
+			<value>460569__richwise__shopping-centre.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>212.13466666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{728d6ab9-64ac-4631-a514-b2c7c598e666}</destination>
+		</relationship>
+	</object>
+</objects>
