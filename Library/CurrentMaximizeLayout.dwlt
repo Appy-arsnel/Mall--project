@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 442}
   m_MaxSize: {x: 12003, y: 8042}
   vertical: 1
-  controlID: 827
+  controlID: 887
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 221}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 828
+  controlID: 888
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: aca0ffffbacf000046d70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -412,9 +412,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -66.45468, y: 3.1495786, z: -4.9845386}
+    m_Target: {x: -61.849045, y: 3.3122373, z: -4.7718925}
     speed: 2
-    m_Value: {x: -66.45468, y: 3.1495786, z: -4.9845386}
+    m_Value: {x: -61.849045, y: 3.3122373, z: -4.7718925}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -461,13 +461,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20233464, y: 0.072489984, z: -0.015019963, w: -0.9765148}
+    m_Target: {x: -0.16451442, y: 0.18580063, z: -0.031570703, w: -0.9682033}
     speed: 2
-    m_Value: {x: -0.20233455, y: 0.07248995, z: -0.015019955, w: -0.97651434}
+    m_Value: {x: -0.16451432, y: 0.18580052, z: -0.031570684, w: -0.9682027}
   m_Size:
-    m_Target: 6.5317235
+    m_Target: 0.4868507
     speed: 2
-    m_Value: 6.5317235
+    m_Value: 0.4868507
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -511,8 +511,8 @@ MonoBehaviour:
     y: 0
     width: 377.59998
     height: 460
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -550,8 +550,8 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 29736
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 55110
+  m_LastVerticalScrollValue: 542.4
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -673,22 +673,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/FMOD/Resources
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Plugins/FMOD/Resources
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\unity-games\Mall--project
+  m_LastProjectPath: C:\Users\appyj\Documents\GitHub\Mall--project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 202}
-    m_SelectedIDs: 8a830000
-    m_LastClickedID: 33674
-    m_ExpandedIDs: 000000007c7400007e740000827400008474000086740000a474000000ca9a3b
+    m_SelectedIDs: 76e40000
+    m_LastClickedID: 58486
+    m_ExpandedIDs: 0000000040e4000042e4000044e4000046e4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,7 +716,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c7400007e740000827400008674000000ca9a3b
+    m_ExpandedIDs: 0000000040e4000042e4000044e4000046e4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,8 +741,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 28740000
-    m_LastClickedInstanceID: 29736
+    m_SelectedInstanceIDs: 46d70000
+    m_LastClickedInstanceID: 55110
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006a140000d64400000a420000e2110000da1100008c350300cc350300fa650000f6710000d87a0000487c00004a81000000000000d612000090210100
     m_RenameOverlay:
@@ -768,7 +768,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 68}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 199

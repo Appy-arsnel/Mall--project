@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 12003, y: 14042}
   vertical: 1
-  controlID: 1048
+  controlID: 1151
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 221}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 1049
+  controlID: 1152
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,9 +375,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 28740000
+      m_SelectedIDs: 5c600000
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: aca0ffffbacf000046d70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -566,9 +566,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -66.45468, y: 3.1495786, z: -4.9845386}
+    m_Target: {x: -61.849045, y: 3.3122373, z: -4.7718925}
     speed: 2
-    m_Value: {x: -66.45468, y: 3.1495786, z: -4.9845386}
+    m_Value: {x: -61.849045, y: 3.3122373, z: -4.7718925}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -615,13 +615,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20233464, y: 0.072489984, z: -0.015019963, w: -0.9765148}
+    m_Target: {x: -0.16451442, y: 0.18580063, z: -0.031570703, w: -0.9682033}
     speed: 2
-    m_Value: {x: -0.20233464, y: 0.07248999, z: -0.0150199635, w: -0.9765149}
+    m_Value: {x: -0.16451442, y: 0.18580063, z: -0.031570703, w: -0.9682033}
   m_Size:
-    m_Target: 6.5317235
+    m_Target: 0.4868507
     speed: 2
-    m_Value: 6.5317235
+    m_Value: 0.4868507
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -678,7 +678,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 542.4
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -779,14 +779,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Plugins/FMOD/Resources
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\unity-games\Mall--project
+  m_LastProjectPath: C:\Users\appyj\Documents\GitHub\Mall--project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 202}
-    m_SelectedIDs: 8a830000
-    m_LastClickedID: 33674
-    m_ExpandedIDs: 000000007c7400007e740000827400008474000086740000a474000000ca9a3b
+    scrollPos: {x: 0, y: 234}
+    m_SelectedIDs: 0ee80000
+    m_LastClickedID: 59406
+    m_ExpandedIDs: 0000000040e4000042e4000044e4000046e400006ee400008ce7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,7 +814,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c7400007e740000827400008674000000ca9a3b
+    m_ExpandedIDs: 0000000040e4000042e4000044e4000046e4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
