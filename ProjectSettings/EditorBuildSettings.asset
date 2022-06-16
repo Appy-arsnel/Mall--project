@@ -6,16 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Toystoreselection.unity
-    guid: 382df7cfc897a9441806f9ef6143aa77
-  - enabled: 1
-    path: Assets/Scenes/MallScene/main.unity
-    guid: fa7d98eaf9c75e1a5b8a77189637903b
-  - enabled: 1
-    path: Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity
-    guid: b5ea4a9f279d37740b3ef34f42035098
-  - enabled: 1
-    path: Assets/Scenes/Bookselection 1.unity
-    guid: 746c877e712246d42899242c7d6b9fcb
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.15.0/Hello Cardboard/Scenes/VrMode.unity
+    guid: 4812ec05e87b8414abcdfe0d625c0e60
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d1ed8d3edd768744e9235c6c4c65f318, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 32ec1200c2224e54eaa2eae0821390ff, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3e781e697b77d054daab541fc1a3e1c5, type: 2}
