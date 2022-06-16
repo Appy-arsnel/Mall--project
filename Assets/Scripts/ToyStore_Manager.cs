@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
  using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ToyStore_Manager : MonoBehaviour
 {
     public GameObject[] toymodels;
     public int currenttoyindex;
+    [SerializeField] private Button selectButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,13 +54,22 @@ public class ToyStore_Manager : MonoBehaviour
         
          }
          public void SceneSelect(){
+        DisableButton();
              Cursor.lockState = CursorLockMode.Locked;
-          SceneManager.LoadScene("Example_2_Controled Flipping");
+        //SceneManager.LoadScene("Example_2_Controled Flipping");
+        SceneManager.LoadSceneAsync("main");
         
          }
            public void ToySceneSelect(){
+        DisableButton();
              Cursor.lockState = CursorLockMode.Locked;
-          SceneManager.LoadScene("main");
+        DataPersistanceManager.instance.LoadGame();
+          SceneManager.LoadSceneAsync("main");
         
          }
+
+    void DisableButton()
+    {
+        selectButton.interactable = false;
+    }
 }

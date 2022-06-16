@@ -109,6 +109,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\NPC.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Scripts\move.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -137,6 +138,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Product.cs" />
     <Compile Include="Assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
+    <Compile Include="Assets\Scripts\DataPersistance\Data\GameData.cs" />
+    <Compile Include="Assets\Scripts\DataPersistance\DataPersistanceManager.cs" />
+    <Compile Include="Assets\Scripts\DataPersistance\IDataPersistance.cs" />
+    <Compile Include="Assets\Scripts\DataPersistance\FileDataHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

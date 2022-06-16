@@ -31,13 +31,15 @@ public class bookstoreselect : MonoBehaviour
            
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
 
     {
        
        isinmissionarea=true;
-
-          SceneManager.LoadScene("Bookselection 1");
-
+        if (other.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.Q))
+        {
+            DataPersistanceManager.instance.SaveGame();
+            SceneManager.LoadSceneAsync("Bookselection 1");
+        }
     }
 }

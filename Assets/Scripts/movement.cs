@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO.Pipes;
 using UnityEngine;
 using UnityEngine.UI;
-public class movement : MonoBehaviour
+public class movement : MonoBehaviour, IDataPersistance
 {
    [SerializeField]private float _speed = 7f;
     [SerializeField]private float _mouseSensitivity = 50f;
@@ -45,6 +45,7 @@ public class movement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         animator= GetComponent<Animator>();
         iswalking=false;
+        
     }
     IEnumerator waiter()
 {       canmove=false;
@@ -56,6 +57,18 @@ public class movement : MonoBehaviour
            canmove=true;
 
 }
+
+    public void LoadData(GameData data)
+    {
+        this.transform.position = data.playerPosition;
+        this.transform.rotation = data.playerRotation;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.playerPosition = this.transform.position;
+        data.playerRotation = Quaternion.Euler(this.transform.rotation.eulerAngles);
+    }
 
     // Update is called once per frame
     void Update()
