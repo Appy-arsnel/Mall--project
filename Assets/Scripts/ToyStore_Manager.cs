@@ -16,6 +16,7 @@ public class ToyStore_Manager : MonoBehaviour
         foreach(GameObject toy in toymodels){
             toy.SetActive(false);
         }
+        currenttoyindex=0;
         toymodels[currenttoyindex].SetActive(true);
         
     }
