@@ -13,7 +13,7 @@ public class npc_dest : MonoBehaviour
             pivotpoint=0;
         }
         if(pivotpoint==5){
-                       this.gameObject.transform.position=new Vector3(-56,-1,-8);
+                       this.gameObject.transform.position=new Vector3(-64,-1,8);
 
             pivotpoint=6;
         }
