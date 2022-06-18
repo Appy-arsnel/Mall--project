@@ -2174,3 +2174,680 @@ Received Import Request.
   path: Assets/Scenes/MallScene/main.unity
   artifactKey: Guid(fa7d98eaf9c75e1a5b8a77189637903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/MallScene/main.unity using Guid(fa7d98eaf9c75e1a5b8a77189637903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2155c7472fdbbf467bfec1e08b8f25') in 0.007466 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3605ms)
+		BeginReloadAssembly (464ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2714ms)
+			LoadAssemblies (632ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1688ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 3.102800 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.823600 ms  DeleteObjects: 0.037500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.624887 seconds.
+  path: Assets/Pedestrian System/Models/anchor.FBX
+  artifactKey: Guid(5d897a4d31286c7498ae230e4c911ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Models/anchor.FBX using Guid(5d897a4d31286c7498ae230e4c911ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd659a519f10acfb2638c696926782ae1') in 0.122234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pedestrian System/Models/edit.FBX
+  artifactKey: Guid(17ad286ef54c4dc49a13ac91f6c86a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Models/edit.FBX using Guid(17ad286ef54c4dc49a13ac91f6c86a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d3473f7bd48fada4bb00b47c9adf4') in 0.081586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.629902 seconds.
+  path: Assets/Pedestrian System/Materials/Floor.mat
+  artifactKey: Guid(95712415ba44d8b498dc25503f27a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Materials/Floor.mat using Guid(95712415ba44d8b498dc25503f27a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142888fd079d949b0ca00c008e4633fc') in 0.090957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Pedestrian System/Materials/PedestrianObject.mat
+  artifactKey: Guid(2655784786bff2642b205d675a6c3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Materials/PedestrianObject.mat using Guid(2655784786bff2642b205d675a6c3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2461bdcfe0061a80c58adff1fc0d9ab3') in 0.052407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Pedestrian System/Materials/PedestrianNode.mat
+  artifactKey: Guid(d12fb586dd9642e47a945d2b3aac0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Materials/PedestrianNode.mat using Guid(d12fb586dd9642e47a945d2b3aac0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e495686941985894a648a86acd7de') in 0.116738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Pedestrian System/Materials/PedestrianObjectSpawner.mat
+  artifactKey: Guid(c93cafdafacee07458ce40229990b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Materials/PedestrianObjectSpawner.mat using Guid(c93cafdafacee07458ce40229990b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320ece3616880b449625b75851989e1c') in 0.064091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.503167 seconds.
+  path: Assets/Pedestrian System/Prefabs
+  artifactKey: Guid(789f6b70004f0db4c9f1924d50e386a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs using Guid(789f6b70004f0db4c9f1924d50e386a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838ef1cff71c9c0061407afe04e82bac') in 0.006065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.451162 seconds.
+  path: Assets/Pedestrian System/Prefabs/Base
+  artifactKey: Guid(cc37d94e7deff404c9753a8ffc6c3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Base using Guid(cc37d94e7deff404c9753a8ffc6c3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb5d84101dd73bbbf92df6869bbe470') in 0.005799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129097 seconds.
+  path: Assets/Pedestrian System/Prefabs/Base/PedestrianSystem.prefab
+  artifactKey: Guid(5af30de199c71574eb49b1b3afb79535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Base/PedestrianSystem.prefab using Guid(5af30de199c71574eb49b1b3afb79535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c406a2b155354e0b51dcd0f65056e7a') in 0.017259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Pedestrian System/Prefabs/Base/Tooltip-Edit.prefab
+  artifactKey: Guid(ec5613ae8b9e1f84ea617b40b78a7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Base/Tooltip-Edit.prefab using Guid(ec5613ae8b9e1f84ea617b40b78a7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66fde4192553769a6a82ae9fc392e79') in 0.134162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Pedestrian System/Prefabs/Base/Tooltip-Anchor.prefab
+  artifactKey: Guid(6f149df6e512c8c4094fb4fe8a673f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Base/Tooltip-Anchor.prefab using Guid(6f149df6e512c8c4094fb4fe8a673f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c82487f98f9ee82dec64d5c319f7fbb') in 0.045399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.547635 seconds.
+  path: Assets/Pedestrian System/Models
+  artifactKey: Guid(95d30f175f7c199439be0113714b7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Models using Guid(95d30f175f7c199439be0113714b7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9f032d96758f0c377257c693e5f105') in 0.008851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.413094 seconds.
+  path: Assets/Pedestrian System/Models/Materials
+  artifactKey: Guid(ec32e51bfeb980d4e99332ea9dd0e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Models/Materials using Guid(ec32e51bfeb980d4e99332ea9dd0e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d01c5177caee0bd17437e7cb75a572') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.120457 seconds.
+  path: Assets/Pedestrian System/Models/Materials/edit.mat
+  artifactKey: Guid(3f076e241895a844aa0e3fb39d85b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Models/Materials/edit.mat using Guid(3f076e241895a844aa0e3fb39d85b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9da6ab848568fa0aed51f32f79a948') in 0.025854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.033226 seconds.
+  path: Assets/Pedestrian System/Editor
+  artifactKey: Guid(89471a9a90957274e9309b352ec6e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Editor using Guid(89471a9a90957274e9309b352ec6e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f1105619a20760affac1fe5f3f3b2f') in 0.005879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.373161 seconds.
+  path: Assets/Pedestrian System/Materials
+  artifactKey: Guid(e49700a6e57e2f94e8fef62338da3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Materials using Guid(e49700a6e57e2f94e8fef62338da3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b9992e76ff30650676d8147b6c6743') in 0.005815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.268706 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources
+  artifactKey: Guid(2555f7936a995a94e98294da319e8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources using Guid(2555f7936a995a94e98294da319e8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4689526d56437e93638be5675919a63f') in 0.009786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.448358 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active
+  artifactKey: Guid(da849416234bf8740a805923e61d134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active using Guid(da849416234bf8740a805923e61d134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc3eb2b1149356c2ed2f213ba918bed') in 0.005135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.062868 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5e8d0d0ef83a43e6f27796ccc0e17a') in 0.210849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx
+  artifactKey: Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx using Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2497802501503eca50bcb0bddc2cb6a1') in 0.217131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx
+  artifactKey: Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx using Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff6f3f480259ab7b81e7f858bdf74e') in 0.125824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4300abb3858424cbbe6295d7a5b6b31') in 0.209591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.426824 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbcd78e1d0bcceab4707ff2146bc2fe') in 0.170393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.767759 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx
+  artifactKey: Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx using Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74f4ec1d12179d2b6fe591fbd13d5d2') in 0.100177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.985886 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx
+  artifactKey: Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx using Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaad995540440d062070a3335c75b51') in 0.178671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.358529 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5895ed33cc5c8ff2b41c08376ccc17f8') in 0.343339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.274040 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd269eb2624bd5fa8bfdb1424106d2b36') in 0.187361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.973576 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx
+  artifactKey: Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx using Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de541690ec7ce021c64ec74036539807') in 0.141593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.824517 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx
+  artifactKey: Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx using Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255ca2425d02c1285f31f3363cd42479') in 0.150125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.308986 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9e1c12f82b586398f6ab0f969231df') in 0.199595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.580395 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e134955f5bdfbd0e22a0430f20966e') in 0.237568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.612213 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7f1eebe6342f527cfafb7d1d7b3818') in 0.212018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.015806 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67b4c2b619209818455d8cb725d50b') in 0.245539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.050045 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f027479203b8c0f71d533a4ea617939d') in 0.250896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.648654 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab
+  artifactKey: Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab using Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5738d35afcbb9bc25cc01e7c777865') in 0.054891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.540376 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab
+  artifactKey: Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab using Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b801804827cb48e80efb1bef8b39ca2') in 0.100514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.886651 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab
+  artifactKey: Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab using Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69077d0691c50f53fcd4ba99f42bd57') in 0.066567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.028873 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab
+  artifactKey: Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab using Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0c2d0751f1c6acc8c6cac1a789e50') in 0.047873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.440206 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk.controller
+  artifactKey: Guid(88e9604a2e69b194f8293d4c32b77af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk.controller using Guid(88e9604a2e69b194f8293d4c32b77af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cae85b5a0083410b9887869de59080') in 0.009961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.561278 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 1.controller
+  artifactKey: Guid(0c5c29075ecb2cb4bb18166647f4b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 1.controller using Guid(0c5c29075ecb2cb4bb18166647f4b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9f9a898d040ed39083accbaa3168ca') in 0.006326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.455875 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 2.controller
+  artifactKey: Guid(4ac9df851b7308541a53377427c0f552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 2.controller using Guid(4ac9df851b7308541a53377427c0f552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e12964320caa6cf82bdb7f275a8c32b') in 0.040442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.081170 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 3.controller
+  artifactKey: Guid(89e365e34d33f884fa9459188b3b480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 3.controller using Guid(89e365e34d33f884fa9459188b3b480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74423a72c93ab7d42f397363712fe546') in 0.012187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.254769 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 1.controller
+  artifactKey: Guid(0c5c29075ecb2cb4bb18166647f4b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 1.controller using Guid(0c5c29075ecb2cb4bb18166647f4b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f0d18a6c2094f977a860cfee8e4717') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.299842 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 2.controller
+  artifactKey: Guid(4ac9df851b7308541a53377427c0f552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk 2.controller using Guid(4ac9df851b7308541a53377427c0f552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4438cf8b31b5cab3b837658aedfd1228') in 0.004513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.386532 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab
+  artifactKey: Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab using Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114ea7f9e7bebc45f47d47b1f437c1d4') in 0.048380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.432570 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab
+  artifactKey: Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab using Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2035c1c197147c459b63a114377d340b') in 0.051810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.270592 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx
+  artifactKey: Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx using Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4171cf1c7de080ab50c819a9da91f904') in 0.158861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.795653 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx
+  artifactKey: Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx using Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aeab9e5185f87fccfca83448ae18a6') in 0.082002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.695130 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31d46a4d23f2bd8c621d40bbd7be229') in 0.137310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.291815 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab
+  artifactKey: Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab using Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6713c4946074fe3fd5b9dc833c807a4') in 0.071422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.913089 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk.controller
+  artifactKey: Guid(88e9604a2e69b194f8293d4c32b77af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/anim_walk.controller using Guid(88e9604a2e69b194f8293d4c32b77af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81181901b913aa5491c8004f5288f7e') in 0.003297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.869489 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0bade6e74fd490e0e792e555d335e0') in 0.163984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.808048 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab
+  artifactKey: Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab using Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8946d1ccac2c350404d47fc703bb4ea7') in 0.057549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.148266 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab
+  artifactKey: Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab using Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad0235d9dc3d212acde7f04a7b147c9') in 0.078675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.361984 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab
+  artifactKey: Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.prefab using Guid(557091e0eef37334186feca065256bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c64e063c1b8f26d957653bd688e13c') in 0.077985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.529222 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab
+  artifactKey: Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab using Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d8719a8109b98fc5be96c21d27345f') in 0.096005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.953879 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab
+  artifactKey: Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.prefab using Guid(946cb306033b6e4409412585c9d3e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471db2d566e3871a4e58688649c34ca6') in 0.080797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.716206 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab
+  artifactKey: Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab using Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9bc1dd22d45fd1dee214a56c554ecf') in 0.081729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.137027 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab
+  artifactKey: Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.prefab using Guid(155210b0e98099e49afe9aa032d45cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afa7bdc763808cea09c3fde4a6bef15') in 0.066703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.117263 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab
+  artifactKey: Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab using Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f807b7a0ed6939dbba668391a8535c6b') in 0.074146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423465 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab
+  artifactKey: Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.prefab using Guid(4657ac9393c1d31499bcd859e2af3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d2faa8c1fc7a2798b7df5723c1e350') in 0.070169 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 3.229500 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.935700 ms  DeleteObjects: 0.040000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.674026 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx
+  artifactKey: Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch22_nonPBR@Walking.fbx using Guid(08158756a4aa55d479a22378d240c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a811fa6ded311df7febc50b211e0765') in 0.181658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.592248 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx
+  artifactKey: Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch12_nonPBR@Walking.fbx using Guid(ed4374fdcf8723747a90e36f6006f20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f7dd0a9e542ebabdeca66dee555d5e') in 0.147298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.566026 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989c1d7aa20158994f6f74456696f608') in 0.286308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.698195 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx
+  artifactKey: Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Remy@Walking.fbx using Guid(3324654202fbf274981acbf980d58481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7792135cdf2a686d9ed45d3e9f6086e2') in 0.241300 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 2.940700 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.669500 ms  DeleteObjects: 0.032800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1574ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 3.093500 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.832700 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245.455508 seconds.
+  path: Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx
+  artifactKey: Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pedestrian System/Prefabs/Resources/Active/Ch02_nonPBR@Catwalk Walk.fbx using Guid(2c5e7fab4faa8754db950f5558ba1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db2c1a55e809b5fc79badf004bf938') in 0.456824 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1411ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1206ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 2.879200 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.065000 ms MarkObjects: 2.626900 ms  DeleteObjects: 0.033800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
