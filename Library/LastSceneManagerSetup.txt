@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MallScene/main.unity
+- path: Assets/Scenes/Bookselection 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
