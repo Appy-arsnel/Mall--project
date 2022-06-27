@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -38,9 +38,10 @@ public class toyslectsceneloader : MonoBehaviour
        
        isinmissionarea=true;
         if(other.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.Q))
-        {
+        {   
             DataPersistanceManager.instance.SaveGame();
             SceneManager.LoadSceneAsync("Toystoreselection");
+            
         }
           
           
