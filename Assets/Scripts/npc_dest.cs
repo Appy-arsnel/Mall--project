@@ -7,10 +7,15 @@ public class npc_dest : MonoBehaviour
     private int pivotpoint;
     void OnTriggerEnter(Collider other)
     {
-        
-        if(pivotpoint==5){
-            this.gameObject.transform.position=new Vector3(0,-1,0);
+         if(pivotpoint==6){
+                        this.gameObject.transform.position=new Vector3(0,-1,0);
+
             pivotpoint=0;
+        }
+        if(pivotpoint==5){
+                       this.gameObject.transform.position=new Vector3(-64,-1,8);
+
+            pivotpoint=6;
         }
         
         if(pivotpoint==4){

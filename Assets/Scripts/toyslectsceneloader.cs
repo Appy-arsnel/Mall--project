@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -32,13 +32,18 @@ public class toyslectsceneloader : MonoBehaviour
            
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
 
     {
        
        isinmissionarea=true;
-
-          SceneManager.LoadScene("Toystoreselection");
-
+        if(other.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.Q))
+        {   
+            DataPersistanceManager.instance.SaveGame();
+            SceneManager.LoadSceneAsync("Toystoreselection");
+            
+        }
+          
+          
     }
 }

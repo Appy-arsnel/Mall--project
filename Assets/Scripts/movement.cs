@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO.Pipes;
 using UnityEngine;
 using UnityEngine.UI;
-public class movement : MonoBehaviour
+public class movement : MonoBehaviour, IDataPersistance
 {
    [SerializeField]private float _speed = 7f;
     [SerializeField]private float _mouseSensitivity = 50f;
@@ -16,6 +16,7 @@ public class movement : MonoBehaviour
         bool istpp;
           [SerializeField] private GameObject _tppc;
                     [SerializeField] private GameObject _fppc;
+    public bool isWalking = false;
 
     public bool canmove;
     private int n;
@@ -44,6 +45,7 @@ public class movement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         animator= GetComponent<Animator>();
         iswalking=false;
+        
     }
     IEnumerator waiter()
 {       canmove=false;
@@ -55,6 +57,18 @@ public class movement : MonoBehaviour
            canmove=true;
 
 }
+
+    public void LoadData(GameData data)
+    {
+        this.transform.position = data.playerPosition;
+        this.transform.rotation = data.playerRotation;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.playerPosition = this.transform.position;
+        data.playerRotation = Quaternion.Euler(this.transform.rotation.eulerAngles);
+    }
 
     // Update is called once per frame
     void Update()
@@ -118,18 +132,27 @@ public class movement : MonoBehaviour
                            
                         StartCoroutine(waiter());
         }
-                
-            //      if(n%2==0){
-            //                 iswaving=true;
-            //                 n++;
-            //     }
-            //     else{
-            //                     iswaving=false;
-            //                     n++;
-            //     }
-             
-        
+
+        //      if(n%2==0){
+        //                 iswaving=true;
+        //                 n++;
+        //     }
+        //     else{
+        //                     iswaving=false;
+        //                     n++;
+        //     }
+
+        if (horizontal != 0.000f || vertical != 0.000f)
+        {
+            isWalking = true;
         }
+        else
+        {
+            isWalking = false;
+        }
+
+
+    }
           void FixedUpdate() {
              // _camera.SetActive(true);
                if(vertical>0||vertical<0||horizontal>0||horizontal<0){
