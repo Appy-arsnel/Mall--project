@@ -117,9 +117,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\Pedestrian System\Scripts\PedestrianObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\Appyanimeation.cs" />
      <Compile Include="Assets\Scripts\npc_wave.cs" />
+     <Compile Include="Assets\Pedestrian System\Scripts\PedestrianObjectSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
      <Compile Include="Assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
@@ -748,6 +748,9 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.OpenVR">
+        <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.WindowsMixedReality">
         <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll</HintPath>
     </Reference>
@@ -796,6 +799,9 @@
     <Reference Include="Unity.XR.MockHMD.Editor">
         <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.XR.MockHMD.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.OpenVR.Editor">
+        <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.InteractionSubsystems">
         <HintPath>C:\Users\appyj\Documents\GitHub\Mall--project\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
     </Reference>
@@ -840,9 +846,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{f44cdd98-f230-cfe4-1e73-a6a93c930dea}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{11085119-96fa-1a65-489d-ac2e1ee94072}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{0e3a7063-2603-cc2a-f5a7-9238b443febe}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
       <Project>{70bd1477-b515-bcec-b494-4af8216b751f}</Project>
       <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{6f86515d-7ef1-b655-d7f3-01fef09dea4b}</Project>
+      <Name>SteamVR_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
       <Project>{6ee7b96e-c952-ef63-111e-2294af7e3623}</Project>
@@ -856,21 +878,9 @@
       <Project>{f205bad1-8e3f-d52c-f797-0d1229280ea7}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{f44cdd98-f230-cfe4-1e73-a6a93c930dea}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{6f86515d-7ef1-b655-d7f3-01fef09dea4b}</Project>
-      <Name>SteamVR_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{11085119-96fa-1a65-489d-ac2e1ee94072}</Project>
-      <Name>SteamVR</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{0e3a7063-2603-cc2a-f5a7-9238b443febe}</Project>
-      <Name>SteamVR_Windows_EditorHelper</Name>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{8629761b-f5a1-95c5-118d-f6753414ee84}</Project>
+      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
