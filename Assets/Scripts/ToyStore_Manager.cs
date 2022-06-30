@@ -25,7 +25,19 @@ public class ToyStore_Manager : MonoBehaviour
     void Update()
     {
         
-            Cursor.lockState = CursorLockMode.Confined;
+          //  Cursor.lockState = CursorLockMode.Confined;
+        if(Input.GetKeyDown(KeyCode.Return))
+            {
+                SceneSelect();
+            }
+        if(Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                ChangPrev();
+            }
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                Changnext();
+            }
 
 
     }
