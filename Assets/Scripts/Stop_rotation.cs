@@ -15,5 +15,7 @@ public class Stop_rotation : MonoBehaviour
     void StopRotation()
     {
         cam.transform.eulerAngles =new Vector3(0f,0f,0f);
+        cam.transform.Rotate(0f,0f,0f,Space.Self);
+    
     }
 }
